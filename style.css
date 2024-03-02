@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(254, 169, 235);
+}
+.card {
+    width: 28%;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: white;
+    transition: 0.4s;
+    margin: 20px;
+    border: 1px solid #ffb3b3;
+}
+img {
+   width: 100%;
+   border: 10px;
+}
+p {
+    font-size: 16px;
+    color: #43c7ff;
+    margin: 10px 0px;
+}
+.text{
+    padding: 20px;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgb(176, 204, 255);
+    background-color: darkgray;
+    text-transform: uppercase;
+}
+.card:hover {
+    width: 30%;
+    box-shadow: 0 0 10px #00ff6e;
+}
